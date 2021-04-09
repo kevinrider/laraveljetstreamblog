@@ -24,9 +24,8 @@ You should first have the lastest version of composer and npm installed, along w
 - Create a new SQL database and fill out the required database parameters in .env
 - Run ```php artisan key:generate```.
 - Run ```php artisan migrate```.
-- Run ```php artisan vendor:publish```.
-- Optional: ```npm run watch```. (if making javascript or css changes)
 - Finally run ```php artisan serve``` to start up a local development server.
+- Optional: ```npm run watch```. (if making javascript or css changes)
 - Optional: Setup the laravel smtp config to enable email verification.  Out of the box, mailhog is the default.
 
 ## Discussion
